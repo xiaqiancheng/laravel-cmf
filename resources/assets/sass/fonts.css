@@ -1,0 +1,658 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "laravel-cmf";
+  src:url("assets?path=fonts/laravel-cmf.eot");
+  src:url("assets?path=fonts/laravel-cmf.eot?#iefix") format("embedded-opentype"),
+    url("assets?path=fonts/laravel-cmf.woff") format("woff"),
+    url("assets?path=fonts/laravel-cmf.ttf") format("truetype"),
+    url("assets?path=fonts/laravel-cmf.svg#laravel-cmf") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "laravel-cmf" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="laravel-cmf-"]:before,
+[class*=" laravel-cmf-"]:before {
+  font-family: "laravel-cmf" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.laravel-cmf-bread:before {
+  content: "\61";
+}
+.laravel-cmf-helm:before {
+  content: "\62";
+}
+.laravel-cmf-play:before {
+  content: "\63";
+}
+.laravel-cmf-activity:before {
+  content: "\64";
+}
+.laravel-cmf-company:before {
+  content: "\65";
+}
+.laravel-cmf-file-text:before {
+  content: "\66";
+}
+.laravel-cmf-folder:before {
+  content: "\67";
+}
+.laravel-cmf-paw:before {
+  content: "\68";
+}
+.laravel-cmf-sort:before {
+  content: "\6f";
+}
+.laravel-cmf-sort-asc:before {
+  content: "\70";
+}
+.laravel-cmf-sort-desc:before {
+  content: "\71";
+}
+.laravel-cmf-handle:before {
+  content: "\6d";
+}
+.laravel-cmf-hammer:before {
+  content: "\6e";
+}
+.laravel-cmf-images:before {
+  content: "\69";
+}
+.laravel-cmf-categories:before {
+  content: "\6a";
+}
+.laravel-cmf-group:before {
+  content: "\6b";
+}
+.laravel-cmf-person:before {
+  content: "\73";
+}
+.laravel-cmf-people:before {
+  content: "\74";
+}
+.laravel-cmf-power:before {
+  content: "\75";
+}
+.laravel-cmf-tools:before {
+  content: "\76";
+}
+.laravel-cmf-anchor:before {
+  content: "\77";
+}
+.laravel-cmf-double-down:before {
+  content: "\78";
+}
+.laravel-cmf-double-up:before {
+  content: "\79";
+}
+.laravel-cmf-double-left:before {
+  content: "\7a";
+}
+.laravel-cmf-double-right:before {
+  content: "\41";
+}
+.laravel-cmf-window-list:before {
+  content: "\42";
+}
+.laravel-cmf-x:before {
+  content: "\43";
+}
+.laravel-cmf-dot:before {
+  content: "\44";
+}
+.laravel-cmf-dot-2:before {
+  content: "\45";
+}
+.laravel-cmf-dot-3:before {
+  content: "\46";
+}
+.laravel-cmf-list:before {
+  content: "\47";
+}
+.laravel-cmf-list-add:before {
+  content: "\48";
+}
+.laravel-cmf-pie-chart:before {
+  content: "\49";
+}
+.laravel-cmf-watch:before {
+  content: "\4a";
+}
+.laravel-cmf-data:before {
+  content: "\4b";
+}
+.laravel-cmf-music:before {
+  content: "\4c";
+}
+.laravel-cmf-settings:before {
+  content: "\4e";
+}
+.laravel-cmf-video:before {
+  content: "\4f";
+}
+.laravel-cmf-trash:before {
+  content: "\50";
+}
+.laravel-cmf-tv:before {
+  content: "\51";
+}
+.laravel-cmf-lock:before {
+  content: "\52";
+}
+.laravel-cmf-news:before {
+  content: "\4d";
+}
+.laravel-cmf-bag:before {
+  content: "\53";
+}
+.laravel-cmf-upload:before {
+  content: "\54";
+}
+.laravel-cmf-refresh:before {
+  content: "\55";
+}
+.laravel-cmf-character:before {
+  content: "\57";
+}
+.laravel-cmf-move:before {
+  content: "\58";
+}
+.laravel-cmf-paypal:before {
+  content: "\56";
+}
+.laravel-cmf-paper-plane:before {
+  content: "\59";
+}
+.laravel-cmf-ticket:before {
+  content: "\5a";
+}
+.laravel-cmf-youtube-play:before {
+  content: "\30";
+}
+.laravel-cmf-boat:before {
+  content: "\31";
+}
+.laravel-cmf-check:before {
+  content: "\6c";
+}
+.laravel-cmf-alarm-clock:before {
+  content: "\32";
+}
+.laravel-cmf-controller:before {
+  content: "\34";
+}
+.laravel-cmf-pizza:before {
+  content: "\35";
+}
+.laravel-cmf-backpack:before {
+  content: "\36";
+}
+.laravel-cmf-barbeque:before {
+  content: "\37";
+}
+.laravel-cmf-bomb:before {
+  content: "\38";
+}
+.laravel-cmf-book-download:before {
+  content: "\39";
+}
+.laravel-cmf-browser:before {
+  content: "\21";
+}
+.laravel-cmf-brush:before {
+  content: "\22";
+}
+.laravel-cmf-bubble-hear:before {
+  content: "\23";
+}
+.laravel-cmf-polaroid:before {
+  content: "\24";
+}
+.laravel-cmf-crop:before {
+  content: "\26";
+}
+.laravel-cmf-dashboard:before {
+  content: "\27";
+}
+.laravel-cmf-hotdog:before {
+  content: "\28";
+}
+.laravel-cmf-laptop:before {
+  content: "\29";
+}
+.laravel-cmf-paint-bucket:before {
+  content: "\2c";
+}
+.laravel-cmf-photo:before {
+  content: "\2d";
+}
+.laravel-cmf-photos:before {
+  content: "\2e";
+}
+.laravel-cmf-receipt:before {
+  content: "\2f";
+}
+.laravel-cmf-buy:before {
+  content: "\3a";
+}
+.laravel-cmf-lightbulb:before {
+  content: "\3b";
+}
+.laravel-cmf-archive:before {
+  content: "\3f";
+}
+.laravel-cmf-paperclip:before {
+  content: "\40";
+}
+.laravel-cmf-warning:before {
+  content: "\5b";
+}
+.laravel-cmf-basket:before {
+  content: "\5d";
+}
+.laravel-cmf-bell:before {
+  content: "\5e";
+}
+.laravel-cmf-book:before {
+  content: "\5f";
+}
+.laravel-cmf-chat:before {
+  content: "\60";
+}
+.laravel-cmf-down-circled:before {
+  content: "\7b";
+}
+.laravel-cmf-location:before {
+  content: "\7d";
+}
+.laravel-cmf-forward:before {
+  content: "\7e";
+}
+.laravel-cmf-flashlight:before {
+  content: "\5c";
+}
+.laravel-cmf-trophy:before {
+  content: "\e001";
+}
+.laravel-cmf-diamond:before {
+  content: "\e002";
+}
+.laravel-cmf-credit-cards:before {
+  content: "\e003";
+}
+.laravel-cmf-shop:before {
+  content: "\e004";
+}
+.laravel-cmf-sound:before {
+  content: "\e005";
+}
+.laravel-cmf-study:before {
+  content: "\e006";
+}
+.laravel-cmf-pen:before {
+  content: "\e007";
+}
+.laravel-cmf-params:before {
+  content: "\e008";
+}
+.laravel-cmf-fire:before {
+  content: "\e009";
+}
+.laravel-cmf-dollar:before {
+  content: "\e00a";
+}
+.laravel-cmf-bulb:before {
+  content: "\e00b";
+}
+.laravel-cmf-lab:before {
+  content: "\e00c";
+}
+.laravel-cmf-cup:before {
+  content: "\e00d";
+}
+.laravel-cmf-megaphone:before {
+  content: "\e00e";
+}
+.laravel-cmf-heart:before {
+  content: "\e00f";
+}
+.laravel-cmf-bubble:before {
+  content: "\e011";
+}
+.laravel-cmf-search:before {
+  content: "\e012";
+}
+.laravel-cmf-tag:before {
+  content: "\e013";
+}
+.laravel-cmf-world:before {
+  content: "\25";
+}
+.laravel-cmf-camera:before {
+  content: "\2a";
+}
+.laravel-cmf-calendar:before {
+  content: "\7c";
+}
+.laravel-cmf-mail:before {
+  content: "\e014";
+}
+.laravel-cmf-phone:before {
+  content: "\e015";
+}
+.laravel-cmf-star:before {
+  content: "\e016";
+}
+.laravel-cmf-star-half:before {
+  content: "\e017";
+}
+.laravel-cmf-star-half-1:before {
+  content: "\e018";
+}
+.laravel-cmf-star-two:before {
+  content: "\e019";
+}
+.laravel-cmf-medal-rank-star:before {
+  content: "\e01a";
+}
+.laravel-cmf-facebook:before {
+  content: "\e01b";
+}
+.laravel-cmf-google-plus:before {
+  content: "\e01c";
+}
+.laravel-cmf-twitter:before {
+  content: "\e01d";
+}
+.laravel-cmf-github:before {
+  content: "\e01e";
+}
+.laravel-cmf-code:before {
+  content: "\e01f";
+}
+.laravel-cmf-pie-graph:before {
+  content: "\e020";
+}
+.laravel-cmf-javascript:before {
+  content: "\e021";
+}
+.laravel-cmf-wand:before {
+  content: "\e022";
+}
+.laravel-cmf-wineglass:before {
+  content: "\e023";
+}
+.laravel-cmf-milestone:before {
+  content: "\e024";
+}
+.laravel-cmf-terminal:before {
+  content: "\e025";
+}
+.laravel-cmf-plug:before {
+  content: "\e026";
+}
+.laravel-cmf-gift:before {
+  content: "\e027";
+}
+.laravel-cmf-markdown:before {
+  content: "\e028";
+}
+.laravel-cmf-beer:before {
+  content: "\e029";
+}
+.laravel-cmf-credit-card:before {
+  content: "\e02a";
+}
+.laravel-cmf-bolt:before {
+  content: "\e02b";
+}
+.laravel-cmf-external:before {
+  content: "\e02c";
+}
+.laravel-cmf-magnet:before {
+  content: "\e02d";
+}
+.laravel-cmf-certificate:before {
+  content: "\e02e";
+}
+.laravel-cmf-cloud-download:before {
+  content: "\e02f";
+}
+.laravel-cmf-campfire:before {
+  content: "\e030";
+}
+.laravel-cmf-new:before {
+  content: "\e031";
+}
+.laravel-cmf-skull:before {
+  content: "\e032";
+}
+.laravel-cmf-telephone:before {
+  content: "\e033";
+}
+.laravel-cmf-trees:before {
+  content: "\e034";
+}
+.laravel-cmf-bar-chart:before {
+  content: "\e035";
+}
+.laravel-cmf-check-circle:before {
+  content: "\e036";
+}
+.laravel-cmf-exclamation:before {
+  content: "\e037";
+}
+.laravel-cmf-font:before {
+  content: "\e03a";
+}
+.laravel-cmf-puzzle:before {
+  content: "\e03b";
+}
+.laravel-cmf-smile:before {
+  content: "\e03c";
+}
+.laravel-cmf-frown:before {
+  content: "\e03d";
+}
+.laravel-cmf-meh:before {
+  content: "\e03e";
+}
+.laravel-cmf-leaf:before {
+  content: "\e03f";
+}
+.laravel-cmf-info-circled:before {
+  content: "\e040";
+}
+.laravel-cmf-underline:before {
+  content: "\e041";
+}
+.laravel-cmf-wallet:before {
+  content: "\e042";
+}
+.laravel-cmf-truck:before {
+  content: "\e043";
+}
+.laravel-cmf-eye:before {
+  content: "\e044";
+}
+.laravel-cmf-sun:before {
+  content: "\e045";
+}
+.laravel-cmf-barbell:before {
+  content: "\e04a";
+}
+.laravel-cmf-bookmark:before {
+  content: "\e04c";
+}
+.laravel-cmf-volume-up:before {
+  content: "\e04d";
+}
+.laravel-cmf-volume-down:before {
+  content: "\e04e";
+}
+.laravel-cmf-wifi:before {
+  content: "\e04f";
+}
+.laravel-cmf-pause:before {
+  content: "\e053";
+}
+.laravel-cmf-resize-full:before {
+  content: "\e054";
+}
+.laravel-cmf-resize-small:before {
+  content: "\e055";
+}
+.laravel-cmf-download:before {
+  content: "\e056";
+}
+.laravel-cmf-droplet:before {
+  content: "\e057";
+}
+.laravel-cmf-umbrella:before {
+  content: "\e058";
+}
+.laravel-cmf-harddrive:before {
+  content: "\e059";
+}
+.laravel-cmf-css3:before {
+  content: "\e05a";
+}
+.laravel-cmf-html5:before {
+  content: "\e05b";
+}
+.laravel-cmf-tree:before {
+  content: "\e05e";
+}
+.laravel-cmf-file-code:before {
+  content: "\e061";
+}
+.laravel-cmf-bug:before {
+  content: "\e062";
+}
+.laravel-cmf-rocket:before {
+  content: "\e063";
+}
+.laravel-cmf-key:before {
+  content: "\33";
+}
+.laravel-cmf-question:before {
+  content: "\2b";
+}
+.laravel-cmf-cursor:before {
+  content: "\3c";
+}
+.laravel-cmf-lifebuoy:before {
+  content: "\3d";
+}
+.laravel-cmf-thumbs-up:before {
+  content: "\3e";
+}
+.laravel-cmf-thumb-tack:before {
+  content: "\e000";
+}
+.laravel-cmf-edit:before {
+  content: "\e010";
+}
+.laravel-cmf-angle-down:before {
+  content: "\e038";
+}
+.laravel-cmf-angle-left:before {
+  content: "\e039";
+}
+.laravel-cmf-angle-right:before {
+  content: "\e046";
+}
+.laravel-cmf-angle-up:before {
+  content: "\e047";
+}
+.laravel-cmf-home:before {
+  content: "\e048";
+}
+.laravel-cmf-pirate-swords:before {
+  content: "\e04b";
+}
+.laravel-cmf-pirate:before {
+  content: "\e050";
+}
+.laravel-cmf-rum:before {
+  content: "\e051";
+}
+.laravel-cmf-cannon:before {
+  content: "\e049";
+}
+.laravel-cmf-hook:before {
+  content: "\e052";
+}
+.laravel-cmf-kraken:before {
+  content: "\e05c";
+}
+.laravel-cmf-lighthouse:before {
+  content: "\e05d";
+}
+.laravel-cmf-pirate-hat:before {
+  content: "\e05f";
+}
+.laravel-cmf-rum-1:before {
+  content: "\e060";
+}
+.laravel-cmf-ship:before {
+  content: "\e064";
+}
+.laravel-cmf-treasure:before {
+  content: "\e065";
+}
+.laravel-cmf-treasure-open:before {
+  content: "\e066";
+}
+.laravel-cmf-whale:before {
+  content: "\e067";
+}
+.laravel-cmf-compass:before {
+  content: "\e068";
+}
+.laravel-cmf-logbook:before {
+  content: "\e069";
+}
+.laravel-cmf-plus:before {
+  content: "\e06a";
+}
+.laravel-cmf-documentation:before {
+  content: "\72";
+}
+.laravel-cmf-belt:before {
+  content: "\e06b";
+}
+.laravel-cmf-zoom-in:before {
+  content: "\e06c";
+}
+.laravel-cmf-zoom-out:before {
+  content: "\e06d";
+}
+.laravel-cmf-scissors:before {
+  content: "\e06e";
+}
+.laravel-cmf-github-icon:before {
+  content: "\e06f";
+}
