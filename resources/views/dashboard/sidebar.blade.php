@@ -6,7 +6,7 @@
                     <div class="logo-icon-container">
                         <?php $admin_logo_img = LaravelCmf::setting('admin.icon_image', ''); ?>
                         @if($admin_logo_img == '')
-                            <img src="{{ laravel_cmf_asset('images/logo-icon-light.png') }}" alt="Logo Icon">
+                            <img src="{{ laravel_cmf_asset('images/large-logo-icon-light.png') }}" alt="Logo Icon">
                         @else
                             <img src="{{ LaravelCmf::image($admin_logo_img) }}" alt="Logo Icon">
                         @endif

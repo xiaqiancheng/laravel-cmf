@@ -125,7 +125,7 @@
                 <div id="file_loader" v-if="is_loading">
                     <?php $admin_loader_img = LaravelCmf::setting('admin.loader', ''); ?>
                     @if($admin_loader_img == '')
-                    <img src="{{ laravel_cmf_asset('images/logo-icon.png') }}" alt="LaravelCmf Loader">
+                    <img src="{{ laravel_cmf_asset('images/loader-icon.png') }}" alt="LaravelCmf Loader">
                     @else
                     <img src="{{ LaravelCmf::image($admin_loader_img) }}" alt="LaravelCmf Loader">
                     @endif
