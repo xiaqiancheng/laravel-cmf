@@ -2,14 +2,14 @@
 
 ### Overriding BREAD Views
 
-You can override any of the BREAD views for a **single** BREAD by creating a new folder in `resources/views/vendor/voyager/slug-name` where _slug-name_ is the _slug_ that you have assigned for that table. There are 4 files that you can override:
+You can override any of the BREAD views for a **single** BREAD by creating a new folder in `resources/views/vendor/laravel-cmf/slug-name` where _slug-name_ is the _slug_ that you have assigned for that table. There are 4 files that you can override:
 
 * browse.blade.php
 * edit-add.blade.php
 * read.blade.php
 * order.blade.php
 
-Alternatively you can override the views for **all** BREADs by creating any of the above files under `resources/views/vendor/voyager/bread`
+Alternatively you can override the views for **all** BREADs by creating any of the above files under `resources/views/vendor/laravel-cmf/bread`
 
 ### Using custom Controllers
 

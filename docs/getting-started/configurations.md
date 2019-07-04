@@ -1,6 +1,6 @@
 # Configurations
 
-With the installation of LaravelCmf you will find a new configuration file located at `config/voyager.php`.  
+With the installation of LaravelCmf you will find a new configuration file located at `config/laravel-cmf.php`.  
 In this file you can find various options to change the configuration of your LaravelCmf installation.
 
 {% hint style="info" %}
@@ -70,7 +70,7 @@ You can specify the namespace or location of your models. This is used when crea
 You may wish to specify a different asset path. If your site lives in a subfolder you may need to include that directory to the beginning of the path. This may also be used in case you wish to duplicate the published assets and customize your own.
 
 {% hint style="info" %}
-When upgrading to new version of voyager the assets located in the `/vendor/xadmin/laravel-cmf/assets` directory may need to be overwritten, so if you wish to customize any styles you will want to duplicate that directory and specify the new location of your asset\_path.
+When upgrading to new version of laravel-cmf the assets located in the `/vendor/xadmin/laravel-cmf/assets` directory may need to be overwritten, so if you wish to customize any styles you will want to duplicate that directory and specify the new location of your asset\_path.
 {% endhint %}
 
 ## Storage
@@ -128,13 +128,13 @@ Read more about multilanguage [here](../core-concepts/multilanguage.md).
 'dashboard' => [
     'navbar_items' => [
         'Profile' => [
-            'route'         => 'voyager.profile',
+            'route'         => 'laravel-cmf.profile',
             'classes'       => 'class-full-of-rum',
-            'icon_class'    => 'voyager-person',
+            'icon_class'    => 'laravel-cmf-person',
         ],
         'Home' => [
             'route'         => '/',
-            'icon_class'    => 'voyager-home',
+            'icon_class'    => 'laravel-cmf-home',
             'target_blank'  => true,
         ],
         'Logout' => [

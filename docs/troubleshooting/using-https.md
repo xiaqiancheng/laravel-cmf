@@ -8,7 +8,7 @@
 Storage::disk(config('laravel-cmf.storage.disk'))->url($file);
 ```
 
-If voyager.storage.disk is set to public, and the public disk is the default from Laravel, then the url property in the disk configuration is set to
+If laravel-cmf.storage.disk is set to public, and the public disk is the default from Laravel, then the url property in the disk configuration is set to
 
 ```php
 'url' => env('APP_URL').'/storage',

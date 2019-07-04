@@ -14,7 +14,7 @@ To update to the latest version inside of your composer.json file make sure to u
 And then run composer update
 
 ### Update Configuration
-The `voyager.php` configuration file has had a few changes.
+The `laravel-cmf.php` configuration file has had a few changes.
 
 ```php
 'storage' => [
@@ -81,12 +81,12 @@ The top dropdown-items can now be translated by providing a language-key:
         'classes'    => 'class-full-of-rum',
         'icon_class' => 'laravel-cmf-person',
     ],
-    'voyager::generic.home' => [
+    'laravel-cmf::generic.home' => [
         'route'        => '/',
         'icon_class'   => 'laravel-cmf-home',
         'target_blank' => true,
     ],
-    'voyager::generic.logout' => [
+    'laravel-cmf::generic.logout' => [
         'route'      => 'laravel-cmf.logout',
         'icon_class' => 'laravel-cmf-power',
     ],
@@ -108,7 +108,7 @@ Please update your User BREAD to use `XADMIN\LaravelCmf\Http\Controllers\Laravel
 LaravelCmf changed its way on how to load assets.  
 Assets don't get published anymore, instead they are loaded directly from the package.  
 Because of that, you can safely remove everything from your `public/vendor/xadmin/laravel-cmf` folder.  
-Also you can remove the `assets_path` config-key from `config/voyager.php`.
+Also you can remove the `assets_path` config-key from `config/laravel-cmf.php`.
 
 ## Troubleshooting
 

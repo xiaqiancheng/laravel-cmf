@@ -1,6 +1,6 @@
 # Routing
 
-After running the voyager installer you will see a few new routes that have been added to your `routes/web.php` file which look like the following:
+After running the laravel-cmf installer you will see a few new routes that have been added to your `routes/web.php` file which look like the following:
 
 ```php
 Route::group(['prefix' => 'admin'], function () {

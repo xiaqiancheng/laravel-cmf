@@ -4,7 +4,7 @@ LaravelCmf supports multiple languages for your models.To get started, you need 
 
 ## Setup
 
-First you need to define some `locales` in your `config/voyager.php` file and `enable` multilanguage:
+First you need to define some `locales` in your `config/laravel-cmf.php` file and `enable` multilanguage:
 
 ```php
 'multilingual' => [

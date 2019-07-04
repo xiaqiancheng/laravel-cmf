@@ -26,13 +26,13 @@ Finally, we can install LaravelCmf. You can choose to install LaravelCmf with du
 To install LaravelCmf without dummy data simply run
 
 ```bash
-php artisan voyager:install
+php artisan laravel-cmf:install
 ```
 
 If you prefer installing it with the dummy data run the following command:
 
 ```bash
-php artisan voyager:install --with-dummy
+php artisan laravel-cmf:install --with-dummy
 ```
 
 {% hint style="danger" %}
@@ -57,13 +57,13 @@ A dummy user is **only** created if there are no current users in your database.
 If you did not go with the dummy user, you may wish to assign admin priveleges to an existing user. This can easily be done by running this command:
 
 ```bash
-php artisan voyager:admin your@email.com
+php artisan laravel-cmf:admin your@email.com
 ```
 
 If you wish to create a new admin user you can pass the `--create` flag, like so:
 
 ```bash
-php artisan voyager:admin your@email.com --create
+php artisan laravel-cmf:admin your@email.com --create
 ```
 
 And you will be prompted for the users name and password.

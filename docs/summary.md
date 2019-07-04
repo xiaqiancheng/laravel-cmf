@@ -4,7 +4,7 @@
 
 ## Getting started
 
-* [What is LaravelCmf](getting-started/what-is-voyager.md)
+* [What is LaravelCmf](getting-started/what-is-laravel-cmf.md)
 * [Installation](getting-started/installation.md)
 * [Upgrading](getting-started/upgrading.md)
 * [Configurations](getting-started/configurations.md)
