@@ -10,8 +10,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ laravel_cmf_asset('images/logo-icon.png') }}" type="image/x-icon">
-
+    <?php $admin_icon_image = LaravelCmf::setting('admin.icon_image', ''); ?>
+    @if($admin_icon_image == '')
+        <link rel="shortcut icon" href="{{ laravel_cmf_asset('images/logo-icon.png') }}" type="image/x-icon">
+    @else
+        <link rel="shortcut icon" href="{{ LaravelCmf::image($admin_icon_image) }}" type="image/x-icon">
+    @endif
 
 
     <!-- App CSS -->
