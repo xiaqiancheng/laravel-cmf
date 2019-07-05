@@ -1,6 +1,6 @@
 {
     "name": "xadmin/laravel-cmf",
-    "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
+    "description": "Laravel-cmf is a background management extension developed based on the laravel framework, which enables rapid build of back-end systems",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
     "homepage": "https://github.com/xiaqiancheng/laravel-cmf/",
@@ -11,7 +11,7 @@
     "authors": [
         {
             "name": "Xia QianCheng",
-            "email": "qiancheng1019@foxmai.com"
+            "email": "qiancheng1019@foxmail.com"
         }
     ],
     "require": {
