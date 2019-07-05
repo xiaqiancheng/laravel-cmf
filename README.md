@@ -3,7 +3,7 @@ laravel-cmf是基于laravel框架开发的后台管理扩展，通过此扩展�
 #### 安装步骤
 ##### 1 安装扩展
 ```
-composer require xadmin/laravel-cmf:dev-master
+composer require xadmin/laravel-cmf
 ```
 ##### 2 连接数据库
 ```
